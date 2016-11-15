@@ -44,7 +44,7 @@ You can tell the extension to always compile a specific set of files in a projec
 All file paths must be relative to the project's root folder. To disable less-autocompile for a project, specify an empty list of files:
 
     { "less": [] }
-![Alt text](img.jpg?raw=true "screenshot")
+![Alt text](screenshot.jpg?raw=true "screenshot")
 ### FAQ
 
 How can I redirect the output to a separate file?
