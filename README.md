@@ -44,19 +44,19 @@ You can tell the extension to always compile a specific set of files in a projec
 All file paths must be relative to the project's root folder. To disable less-autocompile for a project, specify an empty list of files:
 
     { "less": [] }
-
+![Alt text](/img.jpg?raw=true "screenshot")
 ### FAQ
 
 How can I redirect the output to a separate file?
 
 > Add the following line to the head of your less file:
-> 
+>
 >     // out: new-file.css
 
 How can I supress compiling this less file / compile a different less file than the one being edited?
 
 > Add a reference to the master.less file to the head of the imported less file:
-> 
+>
 >     // main: master.less
 
 How can I supress the compilation of a single less file
